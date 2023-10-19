@@ -1,0 +1,6 @@
+.PostWrapper {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    width: calc(12.5% - 32px);
+}
