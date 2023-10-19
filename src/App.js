@@ -1,11 +1,11 @@
-
+import {Characters} from "./components/Characters";
 
 const App = () => {
-  return (
-      <div>
-        <div></div>
-      </div>
-  );
+    return (
+        <div>
+            <Characters/>
+        </div>
+    );
 };
 
 export {App};
