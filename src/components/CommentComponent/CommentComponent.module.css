@@ -1,0 +1,4 @@
+.Comment_container:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
