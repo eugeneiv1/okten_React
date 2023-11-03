@@ -1,0 +1,11 @@
+.MainPageComponent_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.MainPageComponent_wrapper a {
+    font-size: 50px;
+    text-decoration: none;
+}
