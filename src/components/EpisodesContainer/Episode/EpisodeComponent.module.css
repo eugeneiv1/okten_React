@@ -1,0 +1,4 @@
+.episodeContainer {
+    text-align: center;
+    width: calc(25% - 2px);
+}
