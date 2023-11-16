@@ -47,7 +47,7 @@ const CarForm = () => {
             <input type="text" {...register('brand')} placeholder={'Enter brand'}/>
             <input type="text" {...register('price', {valueAsNumber: true})} placeholder={'Enter price'}/>
             <input type="text"{...register('year', {valueAsNumber: true})} placeholder={'Enter manuf year'}/>
-            <button disabled={!isValid}>Save car</button>
+            <button disabled={!isValid}>{carForUpdate ? 'Update car' : 'Save car'}</button>
             {errors.brand && <div>{errors.brand.message}</div>}
             {errors.price && <div>{errors.price.message}</div>}
             {errors.year && <div>{errors.year.message}</div>}
