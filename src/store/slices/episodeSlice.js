@@ -17,9 +17,9 @@ const getAll = createAsyncThunk(
     async ({page}, thunkAPI) => {
         try {
             const {data} = await episodeService.getAll(page);
-            return thunkAPI.fulfillWithValue(data)
+            return thunkAPI.fulfillWithValue(data);
         } catch (e) {
-            return thunkAPI.fulfillWithValue(e.response.data)
+            return thunkAPI.fulfillWithValue(e.response.data);
         }
     }
 )
